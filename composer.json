@@ -7,7 +7,7 @@
   "keywords": [
     "TYPO3 CMS",
     "Cookie Bot",
-    "Nitsan",
+    "T3Planet",
     "Cookie",
     "Bot",
     "GDPR",
@@ -17,7 +17,7 @@
     "issues": "https://github.com/nitsan-technologies/ns_cookiebot/issues"
   },
   "require": {
-    "typo3/cms-core": "^6 || ^7 || ^8  || ^9 || ^10  || ^11 || ^12"
+    "typo3/cms-core": "^6 || ^7 || ^8  || ^9 || ^10  || ^11 || ^12 || ^13"
   },
   "replace": {
       "typo3-ter/ns-cookiebot": "self.version"
