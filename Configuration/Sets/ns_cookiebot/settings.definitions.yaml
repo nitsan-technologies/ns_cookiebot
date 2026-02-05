@@ -1,0 +1,21 @@
+categories:
+  cookiebot:
+    label: NsCookiebot Settings
+
+  cookiebot.general:
+    label: Cookiebot General Settings
+    parent: cookiebot
+
+
+settings:
+  cookiebot.cookieapikey:
+    label: Cookie API Key
+    category: cookiebot.general
+    type: string
+    default: ''
+
+  cookiebot.cookieapiasync:
+    label: cookieapiasync
+    category: cookiebot.general
+    type: bool
+    default: true
