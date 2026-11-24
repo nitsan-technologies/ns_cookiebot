@@ -9,13 +9,14 @@ categories:
 
 settings:
   cookiebot.cookieapikey:
-    label: Cookie API Key
+    label: 'Cookie API Key (Domain Group ID)'
+    description: 'Required to show the Cookiebot consent banner (To get Domain Group ID: https://www.cookiebot.com/en/ — sign in at Cookiebot Manager, open Settings → Your scripts, copy Domain Group ID; add your site hostname under Domains)'
     category: cookiebot.general
     type: string
     default: ''
 
   cookiebot.cookieapiasync:
-    label: cookieapiasync
+    label: 'Async mode (no auto-blocking)'
     category: cookiebot.general
     type: bool
     default: true
