@@ -1,9 +1,9 @@
 plugin.tx_nscookiebot_nscookiebot {
     settings {
-        # cat=plugin.tx_nscookiebot//a; type=string; label=Domain Group ID
+        # cat=plugin.tx_nscookiebot//a; type=string; label=Cookie API Key (Domain Group ID): Required to show the Cookiebot consent banner (To get Domain Group ID: https://www.cookiebot.com/en/)
         cookieapikey =
         
-        # cat=plugin.tx_nscookiebot//b; type=boolean; label=Async and non blocking?
+        # cat=plugin.tx_nscookiebot//b; type=boolean; label=Async mode (no auto-blocking)
         cookieapiasync = 1
     }
 }

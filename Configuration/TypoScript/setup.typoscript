@@ -3,9 +3,9 @@ page.headerData {
     1 {
         10 = TEXT
         10 {
-            value (
-                <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="{$plugin.tx_nscookiebot_nscookiebot.settings.cookieapikey}" type="text/javascript" async></script>        
-            )
+            value = {$plugin.tx_nscookiebot_nscookiebot.settings.cookieapikey}
+            htmlSpecialChars = 1
+            wrap = <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="|" type="text/javascript" async></script>
             if {
                 value = {$plugin.tx_nscookiebot_nscookiebot.settings.cookieapiasync}
                 equals = 1
@@ -13,9 +13,9 @@ page.headerData {
         }
         20 = TEXT
         20 {
-            value (
-                <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="{$plugin.tx_nscookiebot_nscookiebot.settings.cookieapikey}" type="text/javascript" data-blockingmode="auto"></script>        
-            )
+            value = {$plugin.tx_nscookiebot_nscookiebot.settings.cookieapikey}
+            htmlSpecialChars = 1
+            wrap = <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="|" type="text/javascript" data-blockingmode="auto"></script>
             if {
                 value = {$plugin.tx_nscookiebot_nscookiebot.settings.cookieapiasync}
                 equals = 1
